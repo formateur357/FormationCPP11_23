@@ -1,0 +1,32 @@
+Titre : Gestionnaire Simplifié de Contacts
+
+Objectif : Créer un programme pour gérer un contact unique. Le programme doit permettre à l'utilisateur d'entrer des informations sur un contact et d'afficher ces informations.
+
+Instructions :
+
+Déclaration de Types de Variables :
+
+Déclarez des variables pour stocker le nom (string), l'âge (int), et l'email (string) d'un contact.
+Utilisation de Enum :
+
+Définissez une énumération Categorie ayant les valeurs FAMILLE, AMI, COLLEGUE.
+
+Ajoutez une variable de type Categorie pour le contact.
+
+Flux d'Entrée et de Sortie (cin, cout) :
+
+Utilisez cin pour permettre à l'utilisateur de saisir les informations du contact (nom, âge, email, catégorie).
+Utilisez cout pour afficher les informations du contact saisi.
+
+Utilisation des Pointeurs :
+
+Créez un pointeur pour chaque type de variable (nom, âge, email) et utilisez-les pour afficher les informations du contact.
+
+Utilisation des Références :
+
+Écrivez une fonction qui prend une référence à l'âge du contact et l'incrémente. Utilisez cette fonction dans votre programme principal pour modifier l'âge du contact.
+
+Conseils :
+
+Assurez-vous de bien initialiser toutes les variables avant de les utiliser.
+Testez chaque partie du programme séparément pour vous assurer qu'elle fonctionne comme prévu.
