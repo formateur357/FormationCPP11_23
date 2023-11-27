@@ -7,6 +7,7 @@ Instructions :
 Déclaration de Types de Variables :
 
 Déclarez des variables pour stocker le nom (string), l'âge (int), et l'email (string) d'un contact.
+
 Utilisation de Enum :
 
 Définissez une énumération Categorie ayant les valeurs FAMILLE, AMI, COLLEGUE.
