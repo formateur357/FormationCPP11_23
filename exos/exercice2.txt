@@ -1,0 +1,32 @@
+Titre : Gestionnaire de Notes d'Étudiants
+
+Objectif : Créer un programme en C++ qui permet de gérer les notes d'étudiants. Le programme doit offrir plusieurs options telles que l'ajout de notes, l'affichage de la moyenne des notes, et l'affichage de la note la plus élevée.
+
+Instructions :
+
+1. Ajout de Notes :
+
+Utilisez une boucle for pour permettre à l'utilisateur d'entrer les notes de 5 étudiants. Stockez ces notes dans un tableau.
+
+2. Calcul de la Moyenne :
+
+Utilisez une boucle while pour calculer la moyenne des notes.
+
+3. Affichage de la Note la Plus Élevée :
+
+Utilisez une boucle do while pour trouver et afficher la note la plus élevée.
+
+4. Menu Principal :
+
+Créez un menu principal utilisant l'instruction switch qui permet à l'utilisateur de choisir entre l'ajout de notes, le calcul de la moyenne, et l'affichage de la note la plus élevée.
+Utilisez des instructions if, else if, et else pour gérer les entrées invalides.
+
+5. Boucle de Menu :
+
+Encapsulez le menu principal dans une boucle while qui continue à s'exécuter jusqu'à ce que l'utilisateur choisisse de quitter le programme.
+
+Conseils :
+
+Assurez-vous de bien initialiser toutes les variables.
+Testez chaque fonctionnalité séparément avant de les intégrer dans le menu principal.
+Pensez à utiliser des fonctions pour organiser votre code si cela devient trop complexe.

@@ -3,17 +3,14 @@
 
 using namespace std;
 
+void incrementerAge(int &age);
+
 enum class Categorie
 {
     FAMILLE,
     AMI,
     COLLEGUE
 };
-
-void incrementerAge(int &age)
-{
-    ++age;
-}
 
 int main()
 {
@@ -52,4 +49,9 @@ int main()
     cout << "Age apres incrementation: " << age << endl;
 
     return 0;
+}
+
+void incrementerAge(int &age)
+{
+    ++age;
 }
