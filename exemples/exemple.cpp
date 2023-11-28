@@ -8,6 +8,13 @@ unsigned char bb = 0xAA;
 /* ! : inverseur logique */
 /* ~ : inverseur bit à bit */
 
+// comparaison de nombres flottants
+bool sontEgaux(float a, float b)
+{
+    const float tolerance = 0.00001f;
+    return fabs(a - b) < tolerance;
+}
+
 int main()
 {
     printf("a = %u - !a = %u - ~a = %u (0x%hhX)\n", a, !a, ~a, ~a);
