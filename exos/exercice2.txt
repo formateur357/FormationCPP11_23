@@ -6,7 +6,7 @@ Instructions :
 
 1. Ajout de Notes :
 
-Utilisez une boucle for pour permettre à l'utilisateur d'entrer les notes de 5 étudiants. Stockez ces notes dans un tableau..
+Utilisez une boucle for pour permettre à l'utilisateur d'entrer les notes de 5 étudiants. Stockez ces notes dans un tableau.
 
 2. Calcul de la Moyenne :
 
