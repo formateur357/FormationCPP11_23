@@ -2,6 +2,7 @@
 
 using namespace std;
 
+////////////////////////////////////////////////////////////////////////////////////////////////////exercice 1
 //string demanderNom() 
 //{
 //    string nom;
@@ -79,83 +80,229 @@ using namespace std;
 //        cout  << informationEtudiant.TableauNote[i] << "\t";
 //    }
 //    Moyenne(informationEtudiant.TableauNote);
-//
 //}
-
-
+//
+////////////////////////////////////////////////////////////////////////////////////////////////////exercice 2
+//
+//string demanderNom() 
+//{
+//    string nom;
+//    cout << "Quel est le nom du produit ?" << endl;
+//    cin >> nom;
+//
+//    return nom;
+//}
+//
+//double demanderPrix()
+//{
+//    double prix;
+//    cout << "Quel est le prix du produit ?" << endl;
+//    cin >> prix;
+//
+//    return prix;
+//}
+//
+//int demanderJourFabrication()
+//{
+//    int date;
+//    cout << "Quel est le jour de fabrication du produit ?" << endl;
+//    cin >> date;
+//
+//    return date;
+//}
+//
+//int demanderMoisFabrication()
+//{
+//    int date;
+//    cout << "Quel est le mois de fabrication du produit ?" << endl;
+//    cin >> date;
+//
+//    return date;
+//}
+//
+//int demanderAnneeFabrication()
+//{
+//    int date;
+//    cout << "Quel est l'annee de fabrication du produit ?" << endl;
+//    cin >> date;
+//
+//    return date;
+//}
+//
+//int main()
+//{
+//    struct Date
+//    {
+//        int     jour;
+//        int     mois;
+//        int     annee;
+//    };
+//    
+//    struct Produit
+//    {
+//        string           nom;
+//        double           prix;
+//        struct Date      dateFabrication;
+//    };
+//
+//    struct Produit informationProduit;
+//
+//    informationProduit.nom                   = demanderNom();
+//    informationProduit.prix                  = demanderPrix();
+//    informationProduit.dateFabrication.jour  = demanderJourFabrication();
+//    informationProduit.dateFabrication.mois  = demanderMoisFabrication();
+//    informationProduit.dateFabrication.annee = demanderAnneeFabrication();
+//
+//    cout << informationProduit.nom << endl;
+//    cout << informationProduit.prix << endl;
+//    cout << informationProduit.dateFabrication.jour << endl;
+//    cout << informationProduit.dateFabrication.mois << endl;
+//    cout << informationProduit.dateFabrication.annee << endl;
+//}
+// 
+// 
+// 
+// 
+////////////////////////////////////////////////////////////////////////////////////////////////////exercice 3
+// 
+//int main()
+//{
+//	union Data
+//	{
+//		int		iVal;
+//		float   fVal;
+//		char    cVal;
+//	};
+//
+//	union Personne
+//	{
+//		int	 iVal;
+//	};
+//
+//	Data intputData, floatData, charData;
+//
+//	Personne eleveOuEnseignant;
+//
+//
+//
+//
+//	intputData.iVal   = 1013;    /* un int */
+//	floatData.fVal    = 50.5;    /* un float */
+//	charData.cVal     = 'e';       /* un char */
+//
+//	cout << "input  \t" << intputData.iVal << endl;
+//	cout << "float  \t" << floatData.fVal << endl;
+//	cout << "char   \t" << charData.cVal << endl;
+//}
+//
+//
+////////////////////////////////////////////////////////////////////////////////////////////////////exercice 4
 
 string demanderNom() 
 {
     string nom;
-    cout << "Quel est le nom du produit ?" << endl;
+    cout << "Quel est son nom ?" << endl;
     cin >> nom;
 
     return nom;
 }
 
-double demanderPrix()
+int demanderAge()
 {
-    double prix;
-    cout << "Quel est le prix du produit ?" << endl;
-    cin >> prix;
+	int age;
+	cout << "Quel est son l'age ?" << endl;
+	cin >> age;
 
-    return prix;
+	return age;
 }
 
-int demanderJourFabrication()
+int demanderClasse()
 {
-    int date;
-    cout << "Quel est le jour de fabrication du produit ?" << endl;
-    cin >> date;
+	int classe;
+	cout << "Quel est sa classe ?" << endl;
+	cin >> classe;
 
-    return date;
+	return classe;
 }
 
-int demanderMoisFabrication()
+int demanderNbClasse()
 {
-    int date;
-    cout << "Quel est le mois de fabrication du produit ?" << endl;
-    cin >> date;
-
-    return date;
+	int NbClasse = -1;
+	while (NbClasse < 0) {
+		cout << "Combien de classe a l'enseignant?" << endl;
+		cin >> NbClasse;
+	}
+	return NbClasse;
 }
 
-int demanderAnneeFabrication()
+int demanderNbClasse()
 {
-    int date;
-    cout << "Quel est l'annee de fabrication du produit ?" << endl;
-    cin >> date;
+	int NbClasse;
+	cout << "Combien de classe a l'enseignant?" << endl;
+	cin >> NbClasse;
 
-    return date;
+	return NbClasse;
 }
+
 
 int main()
 {
-    struct Date
-    {
-        int     jour;
-        int     mois;
-        int     annee;
-    };
-    
-    struct Produit
-    {
-        string           nom;
-        double           prix;
-        struct Date      dateFabrication;
-    };
+	struct Enseignant
+	{
+		string  nom;
+		int     nbClasse;
+	};
 
-    struct Produit informationProduit;
+	struct Eleve
+	{
+		string  nom;
+		int     age;
+		int     classe;  // idée 4 -> 4e ....
+	};
 
-    informationProduit.nom                   = demanderNom();
-    informationProduit.prix                  = demanderPrix();
-    informationProduit.dateFabrication.jour  = demanderJourFabrication();
-    informationProduit.dateFabrication.mois  = demanderMoisFabrication();
-    informationProduit.dateFabrication.annee = demanderAnneeFabrication();
+	union Personne
+	{
+		int	 iVal;
+	};
 
-    cout << informationProduit.nom << endl;
-    cout << informationProduit.prix << endl;
-    cout << informationProduit.dateFabrication.jour << endl;
-    cout << informationProduit.dateFabrication.mois << endl;
-    cout << informationProduit.dateFabrication.annee << endl;
+	Personne eleveOuEnseignant;
+
+	cout << "type de personne : \n \t 1 - eleve \n \t 2 - enseignant" << endl;
+	cin >> eleveOuEnseignant.iVal;
+	
+	cout << "je suis un " << (eleveOuEnseignant.iVal == 1 ? "eleve" : (eleveOuEnseignant.iVal == 2 ? "enseignant" : "je ne connais pas ce type")) << endl;
+
+	if (eleveOuEnseignant.iVal == 1) {
+		struct Eleve informationEleve;
+		informationEleve.nom     = demanderNom();
+		informationEleve.age     = demanderAge();
+		informationEleve.classe  = demanderClasse();
+
+		cout << "Le nom de l'eleve est :" << informationEleve.nom << endl;
+		cout << "Il a : " << informationEleve.age                 << endl;
+		cout << "Il est en: " << informationEleve.classe << "e"   << endl;
+	}
+
+	if (eleveOuEnseignant.iVal == 2) {
+		struct Enseignant informationEnseigant;
+		informationEnseigant.nom       = demanderNom();
+		informationEnseigant.nbClasse  = demanderNbClasse();
+
+		cout << "Le nom de l'enseignant est : " << informationEnseigant.nom		<< endl;
+		cout << "Il a " << informationEnseigant.nbClasse << "classe" << (informationEnseigant.nbClasse > 1 ? "s" : "") << endl;
+	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
