@@ -1,0 +1,25 @@
+Exercices sur les Structures
+
+1. Structure pour un Étudiant
+
+Définissez une structure Etudiant contenant le nom, l'âge, et une série de notes (utilisez un tableau).
+Faites un programme pour saisir les informations d'un étudiant, calculer sa moyenne et afficher toutes ses informations.
+
+2. Structure Imbriquée pour un Produit
+
+Créez une structure Date pour la date de fabrication (jour, mois, année).
+Définissez une structure Produit avec un nom, un prix et une Date de fabrication.
+Écrivez un programme qui permet de saisir ces informations et les affiche ensuite.
+
+----------------------------------------------------------------------------------------------------------------------------------
+Exercices sur les Unions
+
+1. Union pour Stocker Différents Types de Données
+
+Définissez une union Data qui peut stocker un entier, un flottant et un caractère.
+Écrivez un programme qui assigne une valeur à chaque type de l'union et les affiche.
+
+3. Union avec des Types Personnalisés
+
+Définissez une union Personne qui peut être un étudiant ou un enseignant (utilisez des structures pour définir ces types).
+Écrivez un programme qui crée une Personne, lui assigne des données en tant qu'étudiant ou enseignant, et affiche ces données.
