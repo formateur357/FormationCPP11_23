@@ -10,7 +10,7 @@ public:
     string numeroCompte;
     double soldeCompte;
 
-    CompteBancaire(string titulaireCompte, string numeroCompte)
+    CompteBancaire(string titulaireCompte = "Nom", string numeroCompte = "0000")
     {
         this->titulaireCompte = titulaireCompte;
         this->numeroCompte = numeroCompte;
@@ -48,14 +48,18 @@ public:
 
 int main()
 {
-    CompteBancaire compteBancaire("Jean", "0002");
-    compteBancaire.deposer(10.);
+    CompteBancaire compteBancaire1;
+    compteBancaire1.showInfo();
 
-    compteBancaire.retirer(5.);
+    CompteBancaire compteBancaire2("Jean", "0002");
+    compteBancaire2.deposer(10.);
 
-    cout << "Solde " << compteBancaire.obtenirSolde() << " €" << endl;
+    compteBancaire2.retirer(5.);
+    compteBancaire2.retirer(1.);
 
-    compteBancaire.showInfo();
+    cout << "Solde " << compteBancaire2.obtenirSolde() << " €" << endl;
+
+    compteBancaire2.showInfo();
 
     return 0;
 }
