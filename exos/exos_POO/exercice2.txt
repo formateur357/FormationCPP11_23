@@ -1,0 +1,34 @@
+Exercice : Gestionnaire de Profil Utilisateur
+
+Objectif : Créer une classe Utilisateur en C++14 qui gère les informations d'un utilisateur. La classe doit implémenter un destructeur, des accesseurs et des mutateurs pour manipuler de manière sécurisée les attributs privés de la classe.
+
+Instructions :
+
+Définition de la Classe Utilisateur :
+
+Créez une classe Utilisateur avec les attributs privés suivants :
+nom (string) : le nom de l'utilisateur.
+age (int) : l'âge de l'utilisateur.
+email (string) : l'adresse email de l'utilisateur.
+
+Constructeur et Destructeur :
+
+Définissez un constructeur pour initialiser les attributs de l'utilisateur.
+Définissez un destructeur qui affiche un message indiquant qu'un objet Utilisateur est détruit.
+
+Accesseurs (Getters) :
+
+Ajoutez des accesseurs pour chaque attribut (par exemple, getNom, getAge, getEmail) qui retournent la valeur de l'attribut correspondant.
+
+Mutateurs (Setters) :
+
+Ajoutez des mutateurs pour chaque attribut (par exemple, setNom, setAge, setEmail) qui permettent de modifier la valeur de l'attribut. Assurez-vous d'ajouter des validations si nécessaire (comme vérifier que l'âge est positif).
+
+Testez votre Classe :
+
+Dans la fonction main(), créez une instance de Utilisateur et testez toutes ses méthodes (getters et setters).
+Affichez les informations de l'utilisateur avant et après l'utilisation des setters.
+
+Points à Noter :
+Utilisez des validations dans les setters pour s'assurer que les données sont cohérentes (par exemple, l'âge ne devrait pas être négatif).
+Assurez-vous que le destructeur n'alloue ni ne libère de ressources, mais qu'il sert simplement à afficher un message pour le suivi.
