@@ -1,0 +1,17 @@
+1. Codecademy : Codecademy offre un cours interactif sur C++ qui est idéal pour les débutants. Il propose des exercices pratiques pour vous aider à comprendre les concepts de base de la programmation en C++.
+
+2. LeetCode : Bien que LeetCode soit principalement connu pour sa préparation aux entretiens d'embauche en programmation, il offre également une excellente plateforme pour pratiquer le C++ à travers une variété de problèmes de programmation.
+
+3. GeeksforGeeks : Ce site est une ressource complète pour apprendre divers langages de programmation, y compris le C++. Il propose de nombreux exemples de code, des tutoriels et des problèmes pour pratiquer.
+
+4. Coursera et edX : Ces plateformes proposent des cours en ligne de diverses universités sur le C++. Bien que certains cours soient payants, il y a souvent des options d'audit gratuites qui vous permettent d'accéder aux matériaux du cours sans obtenir de certificat.
+
+5. SoloLearn : SoloLearn offre un cours gratuit de C++ qui comprend des leçons interactives et des quiz pour tester vos connaissances.
+
+6. HackerRank : HackerRank propose des défis de programmation dans de nombreux langages, dont le C++. C'est un excellent moyen de tester et d'améliorer vos compétences en résolution de problèmes.
+
+7. C++ Institute : Ils offrent des certifications en C++ et des ressources d'apprentissage qui peuvent être utiles si vous recherchez une reconnaissance formelle de vos compétences en C++.
+
+8. CodeCombat : Bien que principalement axé sur des langages comme Python et JavaScript, CodeCombat propose une approche de jeu de rôle pour l'apprentissage de la programmation. Vous progressez en écrivant du code pour déplacer un personnage et résoudre des défis.
+
+9. Codingame : Codingame vous permet de jouer à des jeux et de résoudre des puzzles en écrivant du code. Ils offrent une variété de langages de programmation, y compris C++. C'est une excellente façon de pratiquer la résolution de problèmes tout en s'amusant.
