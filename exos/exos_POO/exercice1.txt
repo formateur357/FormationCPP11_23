@@ -1,0 +1,29 @@
+Exercice : Gestionnaire de Comptes Bancaires
+
+Objectif : Créer une classe CompteBancaire en C++ qui gère les informations de base d'un compte bancaire. Cette classe doit inclure un constructeur par défaut et une liste d'initialisation simple pour les membres de la classe.
+
+Instructions :
+
+1. Définition de la Classe CompteBancaire :
+
+Créez une classe CompteBancaire avec les attributs publiques suivants :
+titulaireCompte (string) : le nom du titulaire du compte.
+numeroCompte (string) : le numéro du compte.
+soldeCompte (double) : le solde actuel du compte.
+
+3.Constructeur avec Paramètres par defauts:
+
+Créez un constructeur pour CompteBancaire qui accepte le nom du titulaire et le numéro de compte en tant que paramètres. Utilisez une liste d'initialisation pour initialiser ces attributs et définissez le solde initial du compte à zéro.
+
+4.Fonctions Membres :
+
+Ajoutez des fonctions membres publiques pour :
+- Déposer de l'argent sur le compte (void deposer(double montant)).
+- Retirer de l'argent du compte (bool retirer(double montant)).
+- Obtenir le solde actuel (double obtenirSolde() const).
+- Afficher les informations du compte.
+
+5.Testez votre Classe :
+
+Dans la fonction main(), créez une instance de CompteBancaire en utilisant le constructeur par défaut et une autre en utilisant le constructeur avec paramètres.
+Testez toutes les fonctions membres pour vérifier le bon fonctionnement de votre classe.
