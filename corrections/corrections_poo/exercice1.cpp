@@ -30,10 +30,10 @@ public:
         return false;
     }
 
-    double obtenirSolde() const
-    {
-        return soldeCompte;
-    }
+    double obtenirSolde() const;
+    // {
+    //     return soldeCompte;
+    // }
 
     void afficherInfos() const
     {
@@ -42,6 +42,11 @@ public:
         cout << "Solde: " << soldeCompte << endl;
     }
 };
+
+// double CompteBancaire::obtenirSolde() const
+// {
+//     return soldeCompte;
+// }
 
 int main()
 {
