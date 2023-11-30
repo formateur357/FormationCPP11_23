@@ -14,8 +14,8 @@ public:
 
     // Méthodes statiques
     static int compte(); // Retourne le nombre de points créés
-    static double getDistance(); // Retourne la distance entre 2 points
-    static Point pointMilieu(); // Retourne la distance entre 2 points
+    static double getDistance(const Point& p1, const Point& p2); // Retourne la distance entre 2 points
+    static Point pointMilieu(const Point& p1, const Point& p2); // Retourne la milieu entre 2 points
 
     // Surcharge
     //friend Point operator + (const Point &p_Point1, const Point &p_Point2); 
@@ -23,10 +23,11 @@ public:
     Point operator - (const Point &p_Point2);
     Point operator - ();
     Point operator * (double p_facteur);
+    double operator * (const Point &p_Point1);
     friend Point operator * (double p_facteur, const Point &p_Point1); // 
     
-    ostream & operator << (ostream & os, const Point & p_point);
-    istream & operator >> (istream & is, Point & p_point);
+    friend ostream & operator << (ostream & os, const Point & p_point);
+    friend istream & operator >> (istream & is, Point & p_point);
 }
 
 #endif // POINT_H
