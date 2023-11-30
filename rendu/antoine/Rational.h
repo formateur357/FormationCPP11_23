@@ -10,6 +10,8 @@ private:
 public:
 	Rational(signed int numerateur, int m_denominateur);
 	Rational(signed int numerateur);
+	int pgcd(int a, int b);
+	void reduc(Rational &frac);
 	friend Rational operator+(Rational const& a, Rational const& b);
 	friend Rational operator-(Rational const& a, Rational const& b);
 	friend Rational operator*(Rational const& a, Rational const& b);
