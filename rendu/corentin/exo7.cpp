@@ -1,6 +1,4 @@
 #include <iostream>
-#include <string>
-#include <vector>
 using namespace std;
 
 class Rational
@@ -10,7 +8,7 @@ private:
 	int numerator;
 public:
 	//Members declaration
-	Rational(const int denominator = 1, const int numerator = 0) : numerator(numerator), denominator(denominator) {}
+	Rational(const int numerator, const int denominator) : numerator(numerator), denominator(denominator) {}
 	//  ***** DESTRUCTOR ***** 
 	~Rational() {
 		cout << "deletion :" << this << endl;
