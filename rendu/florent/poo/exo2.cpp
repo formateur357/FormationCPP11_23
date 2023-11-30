@@ -5,12 +5,13 @@ using namespace std;
 
 class User
 {
-public:
+private:
     string name;
     int age;
     string email;
 
-    User(string name, int age, string email)
+public:
+    User(const string &name, const int age, const string &email)
     {
         this->name = name;
         this->age = age;
