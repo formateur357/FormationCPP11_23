@@ -61,7 +61,15 @@ Rational operator==(Rational const& a, Rational const& b)
 
 ostream& operator<<(ostream& flux, Rational const& frac)
 {
-	flux << frac.m_numerateur << "/" << frac.m_denominateur << endl;
+	if (frac.m_denominateur == 1 || frac.m_denominateur == 0)
+	{
+		flux << frac.m_numerateur << endl;
+	}
+	else
+	{
+		flux << frac.m_numerateur << "/" << frac.m_denominateur << endl;
+	}
+	
 	return flux;
 }
 
