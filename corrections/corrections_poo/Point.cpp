@@ -28,6 +28,43 @@ std::ostream &operator<<(std::ostream &out, const Point &point)
     return out;
 }
 
+std::istream &operator>>(std::istream &in, Point &point)
+{
+    char ch1, ch2, ch3;
+
+    in >> ch1 >> point.x >> ch2 >> point.y >> ch3;
+    if (ch1 != '<' || ch2 != ',' || ch3 != '>')
+    {
+        in.setstate(std::ios::failbit);
+    }
+    return in;
+}
+
+Point Point::operator*(double scalar) const
+{
+    return Point(x * scalar, y * scalar);
+}
+
+Point operator*(double scalar, const Point &point)
+{
+    return point * scalar;
+}
+
+Point Point::operator-() const
+{
+    return Point(-x, -y);
+}
+
+Point Point::operator+(const Point &other) const
+{
+    return Point(x + other.x, y + other.y);
+}
+
+double Point::operator*(const Point &other) const
+{
+    return x * other.x + y * other.y;
+}
+
 // Méthode statique pour compter les points
 int Point::compte()
 {

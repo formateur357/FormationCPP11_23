@@ -16,6 +16,13 @@ public:
     ~Point();                  // Destructeur
 
     friend std::ostream &operator<<(std::ostream &out, const Point &point);
+    friend std::istream &operator>>(std::istream &in, Point &point);
+
+    Point operator*(double scalar) const;
+    friend Point operator*(double scalar, const Point &point);
+    Point operator-() const;
+    Point operator+(const Point &other) const;
+    double operator*(const Point &other) const;
 
     // Méthodes statiques
     static int compte(); // Retourne le nombre de points créés
