@@ -1,24 +1,20 @@
 #include <iostream>
-#include "Utilisateur.h"
+#include "Rational.h"
 #include <string>
 
 using namespace std;
 
 int main()
 {	
-	int age_user;
-	string nom_user;
-	string email_user;
-	Utilisateur user1("Antoine", 25, "test@test.com");
-	cout << user1.getAge() << endl;
-	cout << user1.getNom() << endl;
-	cout << user1.getEmail() << endl;
+	Rational frac1(2, 5);
+	Rational frac2(2, 5);
+	Rational frac3(frac1 + frac2);
+	Rational frac4(frac1 - frac2);
+	Rational frac5(frac1 * frac2);
+	cout << frac3 << endl;
+	cout << frac4 << endl;
+	cout << frac5 << endl;
 
-	cout << "test après set nom par exemple" << endl;
-
-	user1.SetAge(35);
-
-	cout << user1.getAge() << endl;
 
 	return 0;
 }
