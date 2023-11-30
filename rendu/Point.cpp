@@ -56,13 +56,13 @@ ostream& operator<<(ostream& flux, Point const& point)
 
 istream& operator>>(istream& flux, Point& point)
 {
-    char chevronOuvert, virgule, chevronFerme;
+    char chevronOuvert('<'), virgule(','), chevronFerme('>');
     double x, y;
     flux >> chevronOuvert;
    
     flux >> x >> virgule >> y;
-    point.SetX(x);
-    point.SetY(y);
+    point.m_x = x;
+    point.m_y = y;
     flux >> chevronFerme;
 
     return flux;
