@@ -65,10 +65,15 @@ ostream& operator<<(ostream& flux, Rational const& frac)
 	{
 		flux << frac.m_numerateur << endl;
 	}
+	else if (frac.m_denominateur < 0)
+	{
+		flux << -frac.m_numerateur << "/" << -frac.m_denominateur << endl;
+	}
 	else
 	{
 		flux << frac.m_numerateur << "/" << frac.m_denominateur << endl;
 	}
+	
 	
 	return flux;
 }

@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {	
-	Rational frac1(3, 5);
+	Rational frac1(-3, 5);
 	Rational frac2(2, 5);
 	Rational frac3(frac1 + frac2);
 	Rational frac4(frac1 - frac2);
