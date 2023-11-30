@@ -1,0 +1,45 @@
+
+Exercice : Surcharge des Opérateurs pour une Classe Rational
+
+Objectif : Créer une classe Rational en C++ pour représenter un nombre rationnel (fraction). Vous devez implémenter la surcharge des opérateurs pour permettre les opérations mathématiques de base sur ces objets.
+
+Description de la Classe
+
+La classe Rational doit représenter un nombre rationnel sous la forme de deux entiers : un numérateur et un dénominateur.
+
+Attributs de la Classe
+
+- numerator (int) : le numérateur de la fraction.
+- denominator (int) : le dénominateur de la fraction.
+
+Méthodes et Opérateurs à Implémenter
+
+- Constructeur :
+
+Un constructeur qui prend deux arguments (numérateur et dénominateur) pour initialiser l'objet. Assurez-vous que le dénominateur n'est pas zéro.
+
+- Surcharge de l'Opérateur << (flux de sortie) :
+
+Pour afficher le nombre rationnel sous la forme numérateur/dénominateur.
+
+- Surcharge des Opérateurs Arithmétiques :
+
++, -, *, / pour effectuer des opérations arithmétiques entre deux nombres rationnels.
+
+- Surcharge de l'Opérateur == (égalité) :
+
+Pour comparer deux nombres rationnels.
+
+Instructions
+
+Définissez la classe Rational avec les attributs nécessaires.
+
+Implémentez le constructeur pour initialiser les attributs de la classe.
+
+Surchargez l'opérateur << pour permettre d'afficher des objets Rational.
+
+Surchargez les opérateurs +, -, *, / pour effectuer des additions, soustractions, multiplications et divisions entre deux objets Rational.
+
+Surchargez l'opérateur == pour comparer deux objets Rational.
+
+Dans votre fonction main(), testez votre classe en créant plusieurs objets Rational et en utilisant les opérateurs que vous avez surchargés.
