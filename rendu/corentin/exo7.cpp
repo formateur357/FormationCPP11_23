@@ -23,17 +23,6 @@ public:
 	friend Rational operator * (const Rational& R1, const Rational& R2);
 	friend Rational operator == (const Rational& R1, const Rational& R2);
 
-	Rational ostream& operator << (ostream& sortie, const Rational& R)
-	{
-		if (R1.denominator != 0) {
-			sortie << R1.numerator << "/" << R2.denominator << endl;
-			return sortie;
-		}
-		else {
-			cout << "denominator should not be 0" << endl;
-			return false;
-		}
-	}
 }
 ostream& operator << (ostream& sortie, const Rational& R1)
 {
@@ -45,11 +34,6 @@ ostream& operator << (ostream& sortie, const Rational& R1)
 		cout << "denominator should not be 0" << endl;
 		return false;
 	}
-}
-
-Rational operator<<(const Rational& R)
-{
-	return Rational();
 }
 
 Rational operator + (const Rational& R1, const Rational& R2)
