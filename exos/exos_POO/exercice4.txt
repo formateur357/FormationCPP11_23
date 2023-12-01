@@ -20,13 +20,6 @@ Classes Dérivées :
 - Implémentez la méthode afficherDetails() dans chaque classe dérivée pour afficher des informations spécifiques au type de véhicule.
 - Surchargez la méthode demarrer() si nécessaire (par exemple, un démarrage différent pour une moto).
 
-Test dans la Fonction main :
-
-- Dans la fonction main, créez un std::vector<Vehicule*> qui contiendra différents types de véhicules.
-- Ajoutez des instances de Voiture, Moto, et Camion au vecteur.
-- Utilisez une boucle pour parcourir le vecteur et appeler afficherDetails() sur chaque véhicule.
-- Appelez également la méthode demarrer() pour chaque véhicule.
-
 Exemple d'Affichage Attendu
 
 Voiture: Marque - Toyota, Modèle - Corolla, Année - 2020
