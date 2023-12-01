@@ -1,0 +1,3 @@
+/Users/morganguy/Formation_Workspace/FormationCPP11_23/corrections/corrections_poo/exo4/build/CMakeFiles/transport.dir
+/Users/morganguy/Formation_Workspace/FormationCPP11_23/corrections/corrections_poo/exo4/build/CMakeFiles/edit_cache.dir
+/Users/morganguy/Formation_Workspace/FormationCPP11_23/corrections/corrections_poo/exo4/build/CMakeFiles/rebuild_cache.dir
