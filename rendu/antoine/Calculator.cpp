@@ -19,7 +19,7 @@ double Calculator::multiply(double a, double b)
 double Calculator::divide(double a, double b)
 {
     if (b == 0) {
-        throw MathException("Error: Division by zero is not allowed.");
+        throw MathException("Division par 0");
     }
     return a / b;
 }

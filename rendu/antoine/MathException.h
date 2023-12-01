@@ -9,5 +9,5 @@ private:
 
 public:
     MathException(const std::string& message);
-    const char* what();
+    const char* what() const override;
 };
