@@ -1,0 +1,24 @@
+Exercice sur les Templates de Fonctions et de Classes en C++
+
+Objectif : Pratiquer la création et l'utilisation de templates de fonctions et de classes en C++ pour comprendre la généricité et la réutilisabilité du code.
+
+Partie 1 : Templates de Fonctions
+
+Description : Écrire une fonction template swap qui échange les valeurs de deux variables de n'importe quel type.
+
+Instructions :
+
+- Définissez une fonction template swap qui prend deux références à des variables de type template.
+- Implémentez la fonction pour échanger les valeurs de ces deux variables.
+- Testez la fonction avec différents types de données (int, double, string, etc.).
+
+Partie 2 : Templates de Classes
+
+Description : Créer une classe template Array qui peut stocker un tableau de n'importe quel type et a une taille fixe spécifiée à la compilation.
+
+Instructions :
+
+- Définissez une classe template Array avec un paramètre de template pour le type de données et un paramètre non-type pour la taille du tableau.
+- Ajoutez un tableau privé de type template comme membre de la classe.
+- Fournissez des méthodes pour accéder (get et set) et afficher le contenu du tableau.
+- Testez la classe avec différents types de données et tailles de tableau.

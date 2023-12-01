@@ -1,0 +1,26 @@
+Exercice : Gestion des Exceptions avec une Classe d'Exception Personnalisée
+
+Objectif : Créer une classe d'exception personnalisée pour gérer des erreurs spécifiques dans un programme de calculatrice.
+
+Contexte
+
+Vous allez développer une calculatrice simple avec une classe d'exception personnalisée pour gérer des erreurs telles que la division par zéro ou les entrées non numériques.
+
+Instructions
+
+Création d'une Classe d'Exception Personnalisée :
+
+- Créez une classe MathException qui hérite de std::exception.
+- La classe doit avoir un constructeur qui accepte un message d'erreur en tant que std::string.
+- Implémentez la méthode what() pour retourner le message d'erreur.
+
+Classe Calculatrice avec Gestion des Exceptions :
+
+- Créez une classe Calculatrice avec des méthodes pour les opérations arithmétiques de base.
+- Dans la méthode de division, levez une exception de type MathException si le dénominateur est zéro.
+- Vous pouvez également ajouter des vérifications pour d'autres types d'erreurs mathématiques si vous le souhaitez.
+
+Gestion des Exceptions dans main :
+
+- Utilisez un bloc try-catch pour appeler les méthodes de la classe Calculatrice.
+- Attrapez les exceptions de type MathException et affichez le message d'erreur.
