@@ -1,0 +1,38 @@
+Exercice sur le Polymorphisme : Système de Gestion de Véhicules
+
+Objectif : Utiliser le polymorphisme pour simuler un système de gestion de différents types de véhicules.
+
+Contexte
+
+Dans cet exercice, vous allez créer un système simple pour gérer différents types de véhicules, tels que des voitures, des motos et des camions. Chaque type de véhicule aura des comportements spécifiques (par exemple, le nombre de roues, le type de carburant, etc.), mais tous partageront certaines caractéristiques communes.
+
+Instructions
+
+Classe de Base Vehicule :
+
+- Créez une classe de base abstraite Vehicule avec des attributs communs tels que marque, modele, et annee.
+- Ajoutez une méthode virtuelle pure afficherDetails() qui affichera les détails du véhicule.
+- Ajoutez une méthode virtuelle demarrer() qui affiche un message général de démarrage.
+
+Classes Dérivées :
+
+- Créez des classes dérivées comme Voiture, Moto, et Camion qui héritent de Vehicule.
+- Implémentez la méthode afficherDetails() dans chaque classe dérivée pour afficher des informations spécifiques au type de véhicule.
+- Surchargez la méthode demarrer() si nécessaire (par exemple, un démarrage différent pour une moto).
+
+Test dans la Fonction main :
+
+- Dans la fonction main, créez un std::vector<Vehicule*> qui contiendra différents types de véhicules.
+- Ajoutez des instances de Voiture, Moto, et Camion au vecteur.
+- Utilisez une boucle pour parcourir le vecteur et appeler afficherDetails() sur chaque véhicule.
+- Appelez également la méthode demarrer() pour chaque véhicule.
+
+Exemple d'Affichage Attendu
+
+Voiture: Marque - Toyota, Modèle - Corolla, Année - 2020
+Démarrage standard d'une voiture.
+Moto: Marque - Yamaha, Modèle - YZF-R1, Année - 2019
+Démarrage rapide d'une moto.
+Camion: Marque - Volvo, Modèle - FH16, Année - 2018
+Démarrage d'un camion avec un moteur diesel.
+
